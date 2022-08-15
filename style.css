@@ -1,0 +1,81 @@
+body{
+    background-color: #fafafa;
+    height: 100vh;
+    margin: 0px;
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+input{
+    all: unset;
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 10px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+}
+input:focus,
+input:active{
+    border: 1px solid rgba(38, 38, 38, 0.4);
+}
+.left{
+    height: 700px;
+    width: 430px;
+    background-image: url(./images/instabackground.png);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+    margin-right: 40px;
+
+}
+.left img{
+    position: relative;
+    top: 20px;
+    left: 155px;
+}
+.box1{
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219); 
+    text-align: center; padding: 20px; 
+    margin: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 110%;
+}
+.right{
+    margin-top: -130px;
+}
+
+.right1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    width: 350px;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 40px;
+    margin: 20px;
+}
+.right .right1 img{
+    padding: 0px 70px 30px 70px;
+}
+.btn1{
+    background-color: rgba(0, 149, 246, 0.3);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.navbar span{
+    color: gray;
+    padding: 10px;
+}
